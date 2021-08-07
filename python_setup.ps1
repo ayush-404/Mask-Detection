@@ -1,5 +1,6 @@
 py -m venv .\env
-cd env\Scripts\Activate.ps1
+cd env\Scripts
+.\Activate.ps1
 py -m pip install tensorflow
 py -m pip install matplotlib
 py -m pip install pandas
